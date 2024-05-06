@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-allauth-vatsim"
+version = "0.0.1"
+dependencies = [
+    "django-allauth>=0.62.0",
+]
+requires-python = ">=3.10"
+authors = [
+  {name="Robin Kipp", email="robin@robin-kipp.net"},
+]
+description = "OAuth2 login provider for VATSIM using django-allauth."
+readme = "README.md"
+keywords = [
+    "vatsim",
+    "vatsim-oauth",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Environment :: Web Environment",
+    "Topic :: Internet",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Framework :: Django",
+    "Framework :: Django :: 4.0",
+    "Framework :: Django :: 4.1",
+    "Framework :: Django :: 5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/robin24/django-allauth-vatsim"
+Issues = "https://github.com/robin24/django-allauth-vatsim/issues"
