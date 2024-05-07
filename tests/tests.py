@@ -2,7 +2,7 @@
 from allauth.socialaccount.tests import OAuth2TestsMixin
 from allauth.tests import MockedResponse, TestCase
 
-from .provider import VATSIMProvider
+from django_allauth_vatsim.provider import VATSIMProvider
 
 
 class VATSIMProviderTests(OAuth2TestsMixin, TestCase):
